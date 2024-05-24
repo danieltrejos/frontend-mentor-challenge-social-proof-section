@@ -310,10 +310,21 @@ body {
             display: flex;
             flex-direction: row;
             padding: 0;
+            height: 320px;
 
+            .card2 {
+                position: relative;
+                top: 20px;
+            }
+
+            .card3 {
+                position: relative;
+                top: 40px;
+            }
 
             .cards {
                 margin: 0;
+
             }
         }
     }
